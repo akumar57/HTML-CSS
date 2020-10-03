@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<form method = "/www.google.com" method = "post">
+
+<label for "employeeType"> Employee Type: </label> <br>
+<label for "Salaried"> Employee Type </label>
+ <input type = "radio" name = "employeeType" value = "Salaried" required> 
+</label>
+<label for "employeeType"> Own Business </label>
+<input type = "radio" name = "employeeType" value = "Own Business">
+</label><br> <br>
+<input type = "submit" value = "Submit">
+</form>
+
+</body>
+
+</html>
