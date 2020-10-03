@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<form action="/action_page.php">
+
+  <label for="username">Username: </label>
+  <input type="text" id="username" name="username"><br> <br>
+  
+   <label for="password">Password: </label>
+  <input type="password" id="password" name="password"><br> <br>
+  
+   <label for="Gender">Gender: &nbsp &nbsp Male</label>
+  <input type="radio" id="male" name="gender">
+  <label for="Gender">Female</label>
+  <input type="radio" id="female" name="gender"><br> <br>
+  
+  
+   <label for="textarea">TextArea </label>
+  <textarea id="textarea" name="textarea"> </textarea><br> <br>
+  
+   <label for="checkbox">Courses: &nbsp &nbsp Full Time: </label>
+  <input type="checkbox" id="checkbox" name="fullTime">
+   <label for="checkbox">Part Time: </label>
+  <input type="checkbox" id="checkbox" name="fullTime"><br><br>
+  
+   <label for="username">Button: </label>
+  <input type="button" id="button1" name="button1"><br><br>
+  
+   <label for="username">URL: </label>
+  <input type="url" id="username" name="username"><br> <br>
+  
+  
+   <label for="username">Date: </label>
+  <input type="date" id="username" name="username"><br><br>
+  
+  
+  <label for="img">Image: </label>
+  <input type="image" src="img_submit.gif" width = "40" height = "40"><br> <br>
+  
+  <label for="time">Time: </label>
+  <input type="time" width = "40" height = "40"><br> <br>
+  
+  <label for="week">Week: </label>
+  <input type="week" width = "40" height = "40"><br> <br>
+  
+  <label for="file">File: </label>
+  <input type="file" width = "40" height = "40"><br> <br>
+  
+  <label for="hidden">Hidden: </label>
+  <input type="hidden" width = "40" height = "40"><br> <br>
+  
+  <label for="search">Search: </label>
+  <input type="search" width = "40" height = "40"><br> <br>
+  
+  <label for="tel">Tel: </label>
+  <input type="tel" width = "40" height = "40"><br> <br>
+  
+  <label for="reset">Reset: </label>
+  <input type="reset" width = "40" height = "40"><br> <br>
+    
+  <label for="month">Month: </label>
+  <input type="month" width = "40" height = "40"><br> <br>
+  
+  <label for="range">Range: </label>
+  <input type="range" width = "40" height = "40"><br> <br>
+  
+  
+  <input type="submit" value="Submit">
+</form>
+</body>
+
+</html>
