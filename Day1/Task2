@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Us</title>
+<h1 align = "center"> Contact Us</h1>
+</head>
+
+<body>
+
+<form method = "/www.google.com" method = "post">
+
+<label for "sname"> Student's Name * </label>
+<input type = "textbox" name = "sname" required> <br> <br>
+
+<label for "email"> Email Address * </label>
+<input type = "textbox" name = "email" required> <br> <br>
+
+<label for "studentType"> Student Type* </label> <br>
+<label for "studentType"> Full Time </label>
+<input type = "checkbox" name = "studentType" value = "full Time" required>
+<label for "studentType"> Part Time </label>
+<input type = "checkbox" name = "studentType" value = "part Time"> <br> <br>
+
+<label for "gender"> Gender* </label> <br>
+<label>Male
+ <input type = "radio" name = "gender" value = "male" required> 
+</label>
+<label>Female
+<input type = "radio" name = "gender" value = "female">
+</label><br> <br>
+<label for "textarea" > Query* </label>
+<textarea name = "textarea"  rows = "4" cols = "50" length = "50" required> 
+</textarea> 
+<br> <br>
+<input type = "submit" value = "Submit Query">
+</form>
+
+</body>
+
+</html>
